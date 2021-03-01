@@ -4,8 +4,8 @@ rm(list=ls())
 options(shiny.trace = FALSE)
 
 # This is required for ShinyProxy
-port <- 3838
- 
+port <- 3939
+
 print(paste0('run.R script, User: ', Sys.getenv("SHINYPROXY_USERNAME")))
 
 shiny::runApp(
